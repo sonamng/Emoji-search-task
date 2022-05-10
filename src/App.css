@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+body{
+  background-color:rgb(218, 128, 128);
+}
+.Input{
+  background-color: rgb(183, 220, 220);
+  width: 60rem;
+  height: 5rem;
+  border-radius: 27rem;
+  margin-top: 20px;
+  margin-left: 22%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-body{
+  width: 60rem;
+  box-sizing: 2rem;
+  height: 5rem;
+  border-radius: 27rem;
+  margin-top: 30px; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1{
+  margin-left: 715px;
   color: white;
+  font-size: 65px;
 }
 
-.App-link {
-  color: #61dafb;
+.card{
+    background-color:lightgray;
+    border: 5px solid rgb(94, 82, 82);
+    border-radius: 25rem;
+    margin-left: 22%;
+    top: 30px;
+    width: 60rem;
+    height: 5rem; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-body {
+  width: 60rem;
+  box-sizing: 2rem;
+  height: 5rem;
+  border-radius: 27rem;
+  margin-top: 4px;
+  font-size: larger;
+}
+
+@media(max-width:750px){
+  h1 {
+    margin-left: 467px;
+    color: white;
+    font-size: 65px;
+}
+.Input {
+  background-color: rgb(183, 220, 220);
+  width: 60rem;
+  height: 5rem;
+  border-radius: 27rem;
+  margin-top: 20px;
+  margin-left: 3%;
+}
+.card{
+  background-color:lightgray;
+  border: 5px solid rgb(94, 82, 82);
+  border-radius: 25rem;
+  margin-left: 3%;
+  top: 30px;
+  width: 60rem;
+  height: 5rem; 
+}
 }
